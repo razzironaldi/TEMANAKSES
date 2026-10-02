@@ -1,32 +1,94 @@
-# React + TypeScript + Vite
+# TemanAkses
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Belajar dengan cara yang sesuai denganmu.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+TemanAkses adalah platform belajar adaptif yang mengenali bahwa setiap pelajar memiliki kebutuhan, preferensi, dan cara memproses informasi yang berbeda. Alih-alih memaksa semua pengguna menggunakan antarmuka yang sama, TemanAkses menyesuaikan pengalaman belajar berdasarkan preferensi pengguna.
 
-## React Compiler
+Dibuat untuk **International Innovation 4 Force Batch II 2026 — Web Design Competition** dengan subtema **Human-Centered Technology**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Problem
 
-## Expanding the Oxlint configuration
+Platform belajar digital sering menyajikan informasi dalam satu format, meskipun pengguna memiliki preferensi belajar, tingkat kenyamanan membaca, dan kebutuhan aksesibilitas yang berbeda-beda. Ini menciptakan hambatan bagi pengguna yang membutuhkan antarmuka yang lebih fokus, lebih sederhana, atau lebih kontras.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Solution
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+TemanAkses menyediakan **lima mode belajar adaptif** yang secara nyata mengubah antarmuka:
+
+| Mode | Fungsi |
+|------|--------|
+| **Visual** | Tampilan standar dengan visual, ikon, dan penanda warna |
+| **Fokus** | Menyembunyikan elemen sekunder, memperbesar area baca |
+| **Audio** | Pemutar audio menggunakan Web Speech API |
+| **Sederhana** | Konten disajikan dalam poin-poin ringkas |
+| **Kontras Tinggi** | Kontras warna ditingkatkan untuk keterbacaan |
+
+## Features
+
+- Onboarding preferensi belajar interaktif
+- Dashboard personal dengan progres dan rekomendasi
+- Materi pembelajaran interaktif dengan konten realistis berbahasa Indonesia
+- Lima mode belajar adaptif yang mengubah UI secara nyata
+- Pemutar audio menggunakan Web Speech API bawaan browser
+- Kontrol aksesibilitas: ukuran teks, jarak teks, kontras
+- Pelacakan progres dan bookmark
+- State persisten menggunakan localStorage
+- Desain responsif untuk desktop, tablet, dan mobile
+- Aksesibilitas: semantic HTML, keyboard navigation, ARIA labels, focus states
+
+## UX Concept
+
+```
+Kebutuhan Pengguna
+      ↓
+Preferensi Belajar
+      ↓
+Antarmuka Adaptif
+      ↓
+Pengalaman Belajar yang Lebih Baik
+      ↓
+Progres & Umpan Balik
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Tech Stack
+
+- **Framework:** React 19 + TypeScript
+- **Build Tool:** Vite 8
+- **Styling:** Tailwind CSS v4
+- **Routing:** React Router DOM v7
+- **State Management:** Zustand (dengan localStorage persistence)
+- **Icons:** Phosphor Icons
+- **Audio:** Web Speech API (native browser)
+
+## Installation
+
+```bash
+git clone https://github.com/<username>/temanakses.git
+cd temanakses
+npm install
+npm run dev
+```
+
+## Development
+
+```bash
+npm run dev       # Start development server
+npm run build     # Build for production
+npm run preview   # Preview production build
+npm run lint      # Run linter
+```
+
+## Live Demo
+
+> URL akan ditambahkan setelah deployment
+
+## Team
+
+> Informasi tim akan ditambahkan
+
+---
+
+### AI Usage Disclosure
+
+AI digunakan sebagai alat bantu dalam eksplorasi ide, pengembangan kode, debugging, dan penyempurnaan konten. Keputusan desain, struktur solusi, implementasi akhir, dan validasi karya dilakukan oleh tim peserta.
