@@ -81,11 +81,12 @@ npm run lint      # Run linter
 
 ## Live Demo
 
-> URL akan ditambahkan setelah deployment
+> https://temanakses-4force.up.railway.app/materials/literasi-digital
 
 ## Team
 
-> Informasi tim akan ditambahkan
+> Razzi Ronaldi MI25
+> Yandri Utama MI25
 
 ---
 
